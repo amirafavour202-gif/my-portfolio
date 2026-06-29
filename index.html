@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jane Doe - Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+
+<body>
+
+  
+  <img class="sidebar-photo"
+    src="pic.jpeg"
+    alt="Amira Favour" />
+
+  
+  <button class="hamburger" onclick="toggleNav()" aria-label="Menu">&#9776;</button>
+
+  
+  <nav class="sidenav" id="sidenav">
+    <a href="#hero">Home</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#about">About</a>
+    <a href="#reputation">Reputation</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  
+  <main class="content">
+
+    
+    <section class="hero" id="hero">
+      <h1>Amira Favour</h1>
+      <p>Photographer and Web Designer.</p>
+      <div>
+        <a class="btn-resume" href="#"><i class="fa fa-download"></i> Download Resume</a>
+      </div>
+    </section>
+
+    
+    <section id="portfolio">
+      <h2>My Portfolio</h2>
+      <div class="portfolio-grid">
+        <img
+          src="pic.jpeg"
+          alt="Portfolio 1" />
+        <img
+          src="pic1.JPG"
+          alt="Portfolio 2" />
+        <img
+          src="pic2.jpeg"
+          alt="Portfolio 3" />
+        <img
+          src="pic3.jpeg"
+          alt="Portfolio 4" />
+        <img
+          src="pic4.jpeg"
+          alt="Portfolio 5" />
+        <img
+          src="pic5.jpeg"
+          alt="Portfolio 6" />
+      </div>
+    </section>
+
+   
+    <section id="about">
+      <h2>About</h2>
+      <p class="about-text"># About Me
+
+Hello! My name is **Amira Favour**, and I am a **23-year-old aspiring software developer from Nigeria** with a passion for building modern, user-friendly digital experiences.
+
+As an upcoming developer, I am continuously learning and improving my skills in web development. I enjoy turning ideas into functional and visually appealing websites while expanding my knowledge of programming, design, and problem-solving.
+
+I believe that every great developer starts with a willingness to learn, and I am committed to growing through practice, collaboration, and real-world projects. My goal is to build innovative solutions that make a positive impact and contribute to the ever-evolving technology industry.
+
+I am excited about the opportunities ahead and look forward to connecting with other developers, working on meaningful projects, and growing into a skilled software engineer.
+
+**"Every line of code I write brings me one step closer to the developer I aspire to become."**
+</p>
+
+      <h2>My Skills</h2>
+      <div class="skill-label">Photography</div>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width:95%"><span>95%</span></div>
+      </div>
+      <div class="skill-label">Web Design</div>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width:85%"><span>85%</span></div>
+      </div>
+      <div class="skill-label">Photoshop</div>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width:80%"><span>80%</span></div>
+      </div>
+    </section>
+
+    
+    <div class="stats-bar">
+      <div><span class="stat-num">14+</span><span class="stat-lbl">Partners</span></div>
+      <div><span class="stat-num">55+</span><span class="stat-lbl">Projects Done</span></div>
+      <div><span class="stat-num">89+</span><span class="stat-lbl">Happy Clients</span></div>
+      <div><span class="stat-num">150+</span><span class="stat-lbl">Meetings</span></div>
+    </div>
+
+   
+    <section id="reputation">
+      <h2>My Reputation</h2>
+
+      <div class="testimonial">
+        <img
+          src="https://www.w3schools.com/w3images/avatar_smoke.jpg"
+          alt="Chandler Bing" />
+        <div class="testimonial-text">
+          <h3>Chandler Bing. <span class="role">Web Designer.</span></h3>
+          <p>Jane Doe is just awesome. I am so happy to have met her!</p>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <img
+          src="https://www.w3schools.com/w3images/bandmember.jpg"
+          alt="Chris Fox" />
+        <div class="testimonial-text">
+          <h3>Chris Fox. <span class="role">CEO at Mighty Schools.</span></h3>
+          <p>Jane Doe saved us from a web disaster.</p>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <img
+          src="https://www.w3schools.com/w3images/avatar_g2.jpg"
+          alt="Rebecca Flex" />
+        <div class="testimonial-text">
+          <h3>Rebecca Flex. <span class="role">CEO at Company.</span></h3>
+          <p>No one is better than Jane Doe.</p>
+        </div>
+      </div>
+
+      <a class="btn-resume" href="#"><i class="fa fa-download"></i> Download Resume</a>
+    </section>
+
+   
+    <section id="pricing">
+      <h2>My Price</h2>
+      <div class="pricing-grid">
+        <div class="plan">
+          <div class="plan-header">Basic</div>
+          <ul>
+            <li>Web Design</li>
+            <li>Photography</li>
+            <li>5GB Storage</li>
+            <li>Mail Support</li>
+          </ul>
+          <div class="price">$ 10</div>
+          <div class="per">per month</div>
+          <button class="btn-signup">Sign Up</button>
+        </div>
+        <div class="plan pro">
+          <div class="plan-header">Pro</div>
+          <ul>
+            <li>Web Design</li>
+            <li>Photography</li>
+            <li>50GB Storage</li>
+            <li>Endless Support</li>
+          </ul>
+          <div class="price">$ 25</div>
+          <div class="per">per month</div>
+          <button class="btn-signup">Sign Up</button>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="contact">
+      <div class="contact-info">
+        <div class="contact-row"><i class="fa fa-map-marker-alt"></i> Chicago, US</div>
+        <div class="contact-row"><i class="fa fa-phone"></i> Phone: +00 151515</div>
+        <div class="contact-row"><i class="fa fa-envelope"></i> Email: mail@mail.com</div>
+      </div>
+
+      <img class="map-img"
+        src="https://www.w3schools.com/w3images/map.jpg"
+        alt="Location map" />
+
+      <p style="color:#666; margin-bottom:16px;">Lets get in touch. Send me a message:</p>
+      <div class="form-group"><input type="text" placeholder="Name" /></div>
+      <div class="form-group"><input type="email" placeholder="Email" /></div>
+      <div class="form-group"><input type="text" placeholder="Subject" /></div>
+      <div class="form-group"><textarea placeholder="Message"></textarea></div>
+      <button class="btn-send"><i class="fa fa-paper-plane"></i> SEND MESSAGE</button>
+    </section>
+
+    
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-snapchat"></i></a>
+      <a href="#"><i class="fab fa-pinterest-p"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <p>Powered by w3.css</p>
+    </div>
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    function toggleNav() {
+      const nav = document.getElementById('sidenav');
+      nav.classList.toggle('open');
+    }
+    // Close nav when clicking a link
+    document.querySelectorAll('.sidenav a').forEach(a => {
+      a.addEventListener('click', () => {
+        document.getElementById('sidenav').classList.remove('open');
+      });
+    });
+  </script>
+
+</body>
+
+</html>
